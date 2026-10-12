@@ -51,12 +51,3 @@
 ;; (unpin! pinned-package another-pinned-package)
 ;; ...Or *all* packages (NOT RECOMMENDED; will likely break things)
 ;; (unpin! t)
-
-(package! flymake-eslint
-  :recipe (:host github :repo "laraochan/flymake-eslint"))
-(package! flymake-oxlint
-  :recipe (:host github :repo "laraochan/flymake-oxlint"))
-
-(package! shell-maker)
-(package! acp)
-(package! agent-shell)
